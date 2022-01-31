@@ -88,7 +88,7 @@ if(queryString != "") { //process data
                   <p>Total: $${myTotal}</p>
                   `;
         
-        myData = myCart + + '<h3>Shipping Info</h3>' + myData; 
+        myData = myCart + '<h3>Shipping Info</h3>' + myData; 
                   myData += `<p><a href="index.html">CLEAR</a</p>`;
         
         document.getElementById("output").innerHTML = myData; 
